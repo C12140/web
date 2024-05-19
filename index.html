@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Blog Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="mostrarInicio()">Inicio</a></li>
+                <li><a href="#" onclick="mostrarAcerca()">Acerca de mí</a></li>
+                <li><a href="#" onclick="mostrarContacto()">Contacto</a></li>
+                <li><a href="#" onclick="mostrarPreguntas()">Preguntas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <article id="inicio" style="display:none; text-align: justify;">
+            <h2>¡Bienvenido a mi blog!</h2>
+            <p>Este es un espacio donde compartiré mis pensamientos, experiencias y conocimientos contigo.</p>
+            <p>Aquí tienes un breve resumen sobre la historia de la odontología:</p>
+            <p>La odontología, que se centra en el cuidado de la salud oral, tiene una larga historia que se remonta a civilizaciones antiguas. Se sabe que los egipcios y los mesopotámicos practicaban la odontología rudimentaria, con evidencia de tratamientos dentales que datan de hace miles de años. A lo largo de los siglos, la odontología ha evolucionado significativamente, desde técnicas primitivas hasta los avances modernos en la ciencia dental y la tecnología. Hoy en día, los odontólogos desempeñan un papel crucial en el mantenimiento de la salud bucal y la prevención de enfermedades dentales.</p>        
+            <div style="text-align: center;">
+                <img src="odontologia.png" alt="Descripción de la imagen" style="max-width: 100%; height: auto;">
+            </div>
+        </article>
+
+        <article id="acerca" style="display:none;">
+            <h2>Acerca de mí</h2>
+            <p>Soy Carol Nicolle Siatova Muñoz, Estudiante de Odontologia. Este blog es mi espacio para compartir mis ideas y experiencias contigo.</p>
+        </article>
+
+        <article id="contacto" style="display:none;">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi correo electrónico: ejemplo@example.com</p>
+            <p>Sígueme en redes sociales:</p>
+            <ul class="redes-sociales">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a></li>
+            </ul>
+        </article>
+        <article id="preguntas" style="display:none;">
+            <h2>Preguntas Frecuentes</h2>
+            <p>¿Cuál es el objetivo de este blog?</p>
+            <p>¿Con qué frecuencia publicas nuevo contenido?</p>
+            <p>¿Cómo puedo ponerme en contacto contigo si tengo más preguntas?</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Blog Personal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
